@@ -7,6 +7,10 @@ btn.addEventListener("click", () => {
   menu.classList.toggle("active")
 })
 
+d.addEventListener("click", (e) => {
+  
+})
+
 // MenuMovile links
 // Events
 
@@ -21,6 +25,7 @@ const menuLinks = d.querySelectorAll(".links")
   
 events.addEventListener("click", () => {
   menuLinks[0].classList.toggle("active")
+  
 })
   
 presents.addEventListener("click", () => {
@@ -38,5 +43,7 @@ spa.addEventListener("click", () => {
 curiosities.addEventListener("click", () => {
   menuLinks[5].classList.toggle("active")
 })
+
+
 
 //
