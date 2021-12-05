@@ -13,6 +13,7 @@ $mainColor: rgb(187, 80, 187);
   position: fixed;
   padding-bottom: 10px;
   background: #fff;
+  z-index: 2;
 
 
   display: flex;
@@ -168,7 +169,38 @@ $mainColor: rgb(187, 80, 187);
     }
 
   }
+// Title css
+  
+  .title {
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    font-family: sans-serif;
+    color: $mainColor;
+    background: linear-gradient(to left, $mainColor, pink, red, orange, blue, purple);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    position: relative;
+  }
+  
+  .arrowDown {
+    font-size: 25px;
+    margin-top: 10px;
+  }
+  // Objectives 
 
+  .objectives {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+
+
+  // Mision - Vision
 
   .mision, .vision{
     margin-top: 20px;
@@ -203,7 +235,7 @@ $mainColor: rgb(187, 80, 187);
 
 
     .text {
-      font-size: 16px;
+      font-size: 15px;
       font-family: sans-serif;
       text-align: justify;
       width: 90%;
@@ -217,6 +249,35 @@ $mainColor: rgb(187, 80, 187);
   }
 
 }
+
+// values
+
+.values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .valueList {
+
+    margin-left: 60px;
+
+    li {
+      font-size: 16px;
+      font-family: sans-serif;
+      list-style-image: url(../IMG/listIMG.png);
+    }
+  }
+
+  .title {
+    margin-top: 20px;
+  }
+
+  .arrowDown {
+    margin-bottom: 10px;
+  }
+
+}
+
 
 // Classes
 

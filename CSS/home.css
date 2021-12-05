@@ -9,6 +9,7 @@
   position: fixed;
   padding-bottom: 10px;
   background: #fff;
+  z-index: 2;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,6 +124,28 @@
   height: 100%;
   min-width: 100%;
 }
+.main .title {
+  width: 90%;
+  margin: auto;
+  font-size: 16px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #bb50bb;
+  background: linear-gradient(to left, #bb50bb, pink, red, orange, blue, purple);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: relative;
+}
+.main .arrowDown {
+  font-size: 25px;
+  margin-top: 10px;
+}
+.main .objectives {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .main .mision, .main .vision {
   margin-top: 20px;
   display: flex;
@@ -153,7 +176,7 @@
   bottom: 0;
 }
 .main .mision .text, .main .vision .text {
-  font-size: 16px;
+  font-size: 15px;
   font-family: sans-serif;
   text-align: justify;
   width: 90%;
@@ -161,6 +184,26 @@
 }
 .main .vision {
   margin-top: 20px;
+}
+
+.values {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.values .valueList {
+  margin-left: 60px;
+}
+.values .valueList li {
+  font-size: 16px;
+  font-family: sans-serif;
+  list-style-image: url(../IMG/listIMG.png);
+}
+.values .title {
+  margin-top: 20px;
+}
+.values .arrowDown {
+  margin-bottom: 10px;
 }
 
 .menuMovile.active {
