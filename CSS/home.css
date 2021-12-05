@@ -28,7 +28,7 @@
 .searchMenu .hamburger {
   width: 10%;
   height: 20%;
-  z-index: 2;
+  z-index: 4;
   margin-right: 20px;
   display: flex;
   justify-content: center;
@@ -52,6 +52,7 @@
   top: 0;
   left: 0;
   background: #bb50bb;
+  z-index: 3;
   transform: translateX(-500px);
   transition: all linear 0.3s;
 }
@@ -74,8 +75,50 @@
 
 .main {
   padding-top: 90px;
-  width: 90%;
+  width: 100%;
   margin: auto;
+  z-index: 3;
+}
+.main .sliderContainer {
+  width: 100%;
+  height: 300px;
+  overflow-x: hidden;
+  position: relative;
+}
+.main .sliderContainer .sliderControls {
+  position: absolute;
+  top: 45%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .sliderContainer .sliderControls .prev, .main .sliderContainer .sliderControls .next {
+  font-size: 18px;
+  color: #fff;
+  background: #bb50bb;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .sliderContainer .slider {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  display: flex;
+}
+.main .sliderContainer .slider .slide {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+}
+.main .sliderContainer .slider .slide img {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
 }
 .main .mision, .main .vision {
   margin-top: 20px;
@@ -104,6 +147,21 @@
 .links.active {
   display: flex;
   transform: translateX(0px);
+}
+
+.overlay.active {
+  display: block;
+}
+
+.overlay {
+  width: 0%;
+  height: 100%;
+  position: fixed;
+  top: 90px;
+  left: 0;
+  background: transparent;
+  z-index: 1;
+  display: block;
 }
 
 /*# sourceMappingURL=home.css.map */
