@@ -39,7 +39,7 @@
   content: "";
   width: 100%;
   height: 3px;
-  background: #bb50bb;
+  background: linear-gradient(to right, #bb50bb, pink, red, orange, blue, purple);
   display: block;
   position: absolute;
   bottom: 0;
@@ -51,26 +51,29 @@
   position: fixed;
   top: 0;
   left: 0;
-  background: #bb50bb;
+  background: linear-gradient(to bottom, #bb50bb, pink);
   z-index: 3;
   transform: translateX(-500px);
   transition: all linear 0.3s;
 }
-.menuMovile .home {
+.menuMovile .link {
   width: 50%;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 30px;
+  text-decoration: none;
   border-right: 5px solid #fff;
+  border-bottom: 5px solid #fff;
   display: flex;
   align-items: center;
   padding: 20px;
 }
-.menuMovile .home a {
+.menuMovile .link p {
   font-size: 16px;
   color: #fff;
   font-weight: bold;
   text-decoration: none;
   font-family: sans-serif;
+  text-decoration: none;
 }
 
 .main {
@@ -96,7 +99,7 @@
 .main .sliderContainer .sliderControls .prev, .main .sliderContainer .sliderControls .next {
   font-size: 18px;
   color: #fff;
-  background: #bb50bb;
+  background: linear-gradient(to right, #bb50bb, orange);
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -128,13 +131,33 @@
   align-items: center;
 }
 .main .mision .title, .main .vision .title {
+  width: 90%;
+  margin: auto;
   font-size: 18px;
+  text-align: center;
   font-family: sans-serif;
   color: #bb50bb;
+  background: linear-gradient(to left, #bb50bb, pink, red, orange, blue, purple);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  position: relative;
+}
+.main .mision .title::after, .main .vision .title::after {
+  content: "";
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, #bb50bb, pink, red, orange, blue, purple);
+  display: block;
+  position: absolute;
+  bottom: 0;
 }
 .main .mision .text, .main .vision .text {
   font-size: 16px;
   font-family: sans-serif;
+  text-align: justify;
+  width: 90%;
+  margin: auto;
 }
 .main .vision {
   margin-top: 20px;
