@@ -55,54 +55,46 @@
   transform: translateX(-500px);
   transition: all linear 0.3s;
 }
-
-.events, .sec {
-  display: flex;
-  flex-direction: column;
-  z-index: 2;
+.menuMovile .home {
+  width: 50%;
+  margin: auto;
   margin-top: 10px;
-}
-.events .title, .sec .title {
-  width: 100%;
-  height: 50px;
-  margin-left: 10px;
+  border-right: 5px solid #fff;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
+  padding: 20px;
 }
-.events .title b, .sec .title b {
-  font-size: 14px;
-  font-family: sans-serif;
+.menuMovile .home a {
+  font-size: 16px;
   color: #fff;
-  margin-right: 10px;
-}
-.events .title i, .sec .title i {
-  margin-top: 5px;
-}
-.events .links, .sec .links {
-  display: none;
-  flex-direction: column;
-  margin-left: 20px;
-  transition: all ease 0.3s;
-  transform: translateX(-300px);
-}
-.events .links ul, .sec .links ul {
-  margin-left: 20px;
-}
-.events .links li, .sec .links li {
-  padding: 10px 0 10px 0;
-}
-.events .links li a, .sec .links li a {
-  text-decoration: none;
-  font-size: 14px;
-  color: #fff;
-  font-family: sans-serif;
-  padding: 10px 0 10px 0;
   font-weight: bold;
+  text-decoration: none;
+  font-family: sans-serif;
 }
 
 .main {
-  padding: 90px;
+  padding-top: 90px;
+  width: 90%;
+  margin: auto;
+}
+.main .mision, .main .vision {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.main .mision .title, .main .vision .title {
+  font-size: 18px;
+  font-family: sans-serif;
+  color: #bb50bb;
+}
+.main .mision .text, .main .vision .text {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.main .vision {
+  margin-top: 20px;
 }
 
 .menuMovile.active {
