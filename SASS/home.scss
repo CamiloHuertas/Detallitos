@@ -79,6 +79,7 @@ $mainColor: rgb(187, 80, 187);
   z-index: 2;
   margin-top: 10px;
 
+
   .title {
     width: 100%;
     height: 50px;
@@ -105,10 +106,12 @@ $mainColor: rgb(187, 80, 187);
     display: none;
     flex-direction: column;
     margin-left: 20px;
-    
+    transition: all ease 0.3s;
+    transform: translateX(-300px);
+
     ul {
       margin-left: 20px;
-      
+
     }
 
     li {
@@ -126,7 +129,10 @@ $mainColor: rgb(187, 80, 187);
 
   }
 
+}
 
+.main {
+  padding: 90px;
 }
 
 
@@ -137,4 +143,6 @@ $mainColor: rgb(187, 80, 187);
 
 .links.active {
   display: flex;
+  transform: translateX(0px);
 }
+

@@ -83,6 +83,8 @@
   display: none;
   flex-direction: column;
   margin-left: 20px;
+  transition: all ease 0.3s;
+  transform: translateX(-300px);
 }
 .events .links ul, .sec .links ul {
   margin-left: 20px;
@@ -99,12 +101,17 @@
   font-weight: bold;
 }
 
+.main {
+  padding: 90px;
+}
+
 .menuMovile.active {
   transform: translateX(0px);
 }
 
 .links.active {
   display: flex;
+  transform: translateX(0px);
 }
 
 /*# sourceMappingURL=home.css.map */
