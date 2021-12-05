@@ -137,6 +137,13 @@
   background-clip: text;
   position: relative;
 }
+.main .text {
+  font-size: 15px;
+  font-family: sans-serif;
+  text-align: justify;
+  width: 90%;
+  margin: auto;
+}
 .main .arrowDown {
   font-size: 25px;
   margin-top: 10px;
@@ -152,35 +159,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.main .mision .title, .main .vision .title {
-  width: 90%;
-  margin: auto;
-  font-size: 18px;
-  text-align: center;
-  font-family: sans-serif;
-  color: #bb50bb;
-  background: linear-gradient(to left, #bb50bb, pink, red, orange, blue, purple);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  position: relative;
-}
-.main .mision .title::after, .main .vision .title::after {
-  content: "";
-  width: 100%;
-  height: 3px;
-  background: linear-gradient(to right, #bb50bb, pink, red, orange, blue, purple);
-  display: block;
-  position: absolute;
-  bottom: 0;
-}
-.main .mision .text, .main .vision .text {
-  font-size: 15px;
-  font-family: sans-serif;
-  text-align: justify;
-  width: 90%;
-  margin: auto;
 }
 .main .vision {
   margin-top: 20px;
@@ -204,6 +182,16 @@
 }
 .values .arrowDown {
   margin-bottom: 10px;
+}
+
+.emailAutho {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.emailAutho .text {
+  margin-bottom: 20px;
 }
 
 .menuMovile.active {
