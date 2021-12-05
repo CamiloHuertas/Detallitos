@@ -72,7 +72,7 @@ $mainColor: rgb(187, 80, 187);
   background:linear-gradient(to bottom, $mainColor, pink);
   z-index: 3;
 
- transform: translateX(-500px);
+ transform: translateX(-1000px);
  transition: all linear 0.3s; 
   
   .link {
@@ -191,6 +191,9 @@ $mainColor: rgb(187, 80, 187);
     text-align: justify;
     width: 90%;
     margin: auto;
+
+    display: flex;
+    justify-content: center;
   }
 
   
@@ -266,6 +269,16 @@ $mainColor: rgb(187, 80, 187);
       margin-bottom: 20px;
     }
 
+    .arrowDown {
+      margin-bottom: 20px;
+    }
+
+}
+
+// Pc search bar
+
+.searchPc {
+  display: none;
 }
 
 // Classes
@@ -295,4 +308,123 @@ $mainColor: rgb(187, 80, 187);
   background: transparent;
   z-index: 1;
   display: block;
+}
+
+//  Media queries
+
+@media screen and (min-width: 768px) {
+  // Disabled items
+  
+  .menuMovile {
+    display: none;
+  }
+
+  .overlay {
+    display: none;
+  }
+
+  .hamburger, .hamburger--elastic, .hamburger-box, .hamburger--inner {
+    transform: translateY(-1000%);
+  }
+
+  // Search PC
+
+  .searchPc {
+    display: block;
+    width: 60%;
+    height: 100%;
+
+    .linksPc {
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+
+      a {
+        color: $mainColor;
+        font-family: sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        position: relative;
+      }
+
+      a:hover::after {
+        width: 100%;
+      }
+      
+      a::after {
+        content: "";
+        width: 0%;
+        height: 3.5px;
+        background-color: $mainColor;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        transition: all linear 0.2s;
+      }
+
+
+    } 
+
+  }
+
+  // search bar
+
+  .searchMenu {
+    height: 110px;
+  }
+
+  // Logo 
+
+  .logo {
+    height: 5%;
+    width: 30%;
+    img {
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  // Main 
+  .main {
+    .title {
+      font-size: 20px;
+    }
+
+    .text {
+      font-size: 18px;
+    }
+
+  }
+  // Content
+
+  .content {
+    width: 60%;
+    margin: auto;
+  }
+
+  // slider
+
+  .sliderContainer {
+      height: 100%;
+    img {
+      object-fit: cover;
+      
+    }
+  }
+
+  // slider controls
+
+  .next, .prev {
+    cursor: pointer;
+    transition: all ease 0.6s;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+  }
+
 }

@@ -84,3 +84,4 @@ slider.addEventListener("transitionend", () => {
 
 btnNext.addEventListener("click", moveNext)
 btnPrev.addEventListener("click", movePrev)
+
