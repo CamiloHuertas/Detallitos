@@ -44,3 +44,8 @@ ScrollReveal().reveal('.searchMenu', {
   origin: "bottom",
   distance: "-100px"
 })
+ScrollReveal().reveal('.main', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
