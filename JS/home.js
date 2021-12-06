@@ -52,3 +52,18 @@ ScrollReveal().reveal('.main', {
 ScrollReveal().reveal('.content', {
   delay: "500"
 })
+ScrollReveal().reveal('.objectives', {
+  delay: "500"
+})
+ScrollReveal().reveal('.mision', {
+  delay: "500"
+})
+ScrollReveal().reveal('.vision', {
+  delay: "500"
+})
+ScrollReveal().reveal('.values', {
+  delay: "500"
+})
+ScrollReveal().reveal('.emailAutho', {
+  delay: "500"
+})
