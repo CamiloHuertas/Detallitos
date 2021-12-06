@@ -25,7 +25,7 @@
 .searchMenu .logo img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 .searchMenu .hamburger {
   width: 10%;
@@ -79,53 +79,25 @@
 }
 
 .main {
-  padding-top: 90px;
+  padding-top: 160px;
   width: 100%;
   margin: auto;
   z-index: 3;
 }
-.main .sliderContainer {
-  width: 100%;
+.main .bannerContainer {
   height: 300px;
-  overflow-x: hidden;
-  position: relative;
-}
-.main .sliderContainer .sliderControls {
-  position: absolute;
-  top: 45%;
   width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
-.main .sliderContainer .sliderControls .prev, .main .sliderContainer .sliderControls .next {
-  font-size: 18px;
-  color: #fff;
-  background: linear-gradient(to right, #bb50bb, orange);
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.main .sliderContainer .slider {
+.main .bannerContainer .banner {
   width: 100%;
   height: 100%;
-  min-width: 100%;
-  display: flex;
 }
-.main .sliderContainer .slider .slide {
+.main .bannerContainer .banner img {
   width: 100%;
   height: 100%;
-  min-width: 100%;
 }
-.main .sliderContainer .slider .slide img {
-  width: 100%;
-  height: 100%;
-  min-width: 100%;
-}
-.main .title {
+
+.title {
   width: 90%;
   margin: auto;
   font-size: 16px;
@@ -138,7 +110,8 @@
   background-clip: text;
   position: relative;
 }
-.main .text {
+
+.text {
   font-size: 15px;
   font-family: sans-serif;
   text-align: justify;
@@ -147,26 +120,30 @@
   display: flex;
   justify-content: center;
 }
-.main .arrowDown {
+
+.arrowDown {
   font-size: 25px;
   margin-top: 10px;
 }
-.main .objectives {
+
+.objectives {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.main .objectives .title {
+.objectives .title {
   font-size: 25px;
 }
-.main .mision, .main .vision {
+
+.mision, .vision {
   margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.main .vision {
+
+.vision {
   margin-top: 20px;
 }
 
@@ -278,7 +255,7 @@
   }
 
   .searchMenu {
-    height: 110px;
+    height: 140px;
   }
 
   .logo {
@@ -287,26 +264,30 @@
   }
   .logo img {
     height: 100%;
+    width: 100%;
     object-fit: contain;
   }
 
+  .main {
+    padding-top: 140px;
+  }
   .main .title {
     font-size: 20px;
   }
   .main .text {
     font-size: 18px;
   }
+  .main .bannerContainer {
+    height: 90vh;
+  }
+  .main .bannerContainer .banner img {
+    object-fit: cover;
+    background-attachment: fixed;
+  }
 
   .content {
     width: 60%;
     margin: auto;
-  }
-
-  .sliderContainer {
-    height: 100%;
-  }
-  .sliderContainer img {
-    object-fit: cover;
   }
 
   .next, .prev {
