@@ -13,7 +13,6 @@ const logo = d.querySelector(".logo img")
 
 btn.addEventListener("click", () => {
   if (menu.classList.contains("active")) {
-    search.style.background = `rgba(0, 0, 0, 0.74)`
     overlay.style.background = `rgba(0, 0, 0, 0.74)`
     overlay.style.width = `100%`
     logo.style.display = "none"
