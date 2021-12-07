@@ -1,0 +1,81 @@
+@import url(../CSS/home.css);
+i {
+  color: #fff;
+}
+
+.menuMovile {
+  overflow-y: scroll;
+}
+
+#services {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#services i {
+  margin-right: 10px;
+  color: #fff;
+}
+
+.subLinksServicesMovile {
+  overflow: scroll;
+  width: 60%;
+  height: auto;
+  margin: auto;
+  display: none;
+  flex-direction: column;
+}
+.subLinksServicesMovile .itemA {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: auto;
+  margin-top: 30px;
+  border-right: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+}
+.subLinksServicesMovile .itemA i {
+  margin-right: 10px;
+}
+.subLinksServicesMovile .itemA .eventLinkList {
+  display: flex;
+  flex-direction: column;
+}
+.subLinksServicesMovile a {
+  width: 100%;
+  font-size: 2;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.eventLinkList, .LinkList {
+  width: 60%;
+  max-width: 60%;
+  margin: auto;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+}
+.eventLinkList a, .LinkList a {
+  border-right: 5px solid #e00987;
+  border-bottom: 5px solid #e00987;
+  height: auto;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.subLinksServicesMovile.active {
+  display: flex;
+  flex-direction: column;
+}
+
+.eventLinkList.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*# sourceMappingURL=servicios.css.map */
