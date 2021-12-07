@@ -37,6 +37,7 @@ d.addEventListener("click", (e) => {
 })
 
 
+
 // Scroll reveal
 
 ScrollReveal().reveal('.searchMenu', {
@@ -81,8 +82,5 @@ ScrollReveal().reveal('.orderTitle', {
 })
 
 ScrollReveal().reveal('.orderText', {
-  delay: "500"
-})
-ScrollReveal().reveal('.textFooter', {
   delay: "500"
 })
