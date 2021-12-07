@@ -1,8 +1,25 @@
 @import url(../CSS/home.css);
 
+$mainColor: rgb(187, 80, 187);
 
+.title {
+  margin-top: 20px;
+}
 
-// media queries
+.textFooter {
+  width: 100%;
+  margin: auto;
+  font-size: 24px;
+  text-align: center;
+  font-family: sans-serif;
+  color: $mainColor;
+  background: linear-gradient(to right, $mainColor, pink) $mainColor;
+  color: #fff;
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+}
 
   // Search pc
 

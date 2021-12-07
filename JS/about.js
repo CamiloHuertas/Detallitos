@@ -49,3 +49,40 @@ ScrollReveal().reveal('.main', {
   origin: "left",
   distance: "500px"
 })
+
+ScrollReveal().reveal('.whoWeAreTitle', {
+  delay: "500"
+})
+ScrollReveal().reveal('.whoWeAreText', {
+  delay: "500"
+})
+ScrollReveal().reveal('.titleAllie', {
+  delay: "500"
+})
+ScrollReveal().reveal('.textAllie', {
+  delay: "500"
+})
+ScrollReveal().reveal('.productsTitle', {
+  delay: "500"
+})
+
+ScrollReveal().reveal('.productsText', {
+  delay: "500"
+})
+ScrollReveal().reveal('.personalTitle', {
+  delay: "500"
+})
+
+ScrollReveal().reveal('.personalText', {
+  delay: "500"
+})
+ScrollReveal().reveal('.orderTitle', {
+  delay: "500"
+})
+
+ScrollReveal().reveal('.orderText', {
+  delay: "500"
+})
+ScrollReveal().reveal('.textFooter', {
+  delay: "500"
+})

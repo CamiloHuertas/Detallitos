@@ -1,3 +1,20 @@
 @import url(../CSS/home.css);
+.title {
+  margin-top: 20px;
+}
+
+.textFooter {
+  width: 100%;
+  margin: auto;
+  font-size: 24px;
+  text-align: center;
+  font-family: sans-serif;
+  color: #bb50bb;
+  background: linear-gradient(to right, #bb50bb, pink) #bb50bb;
+  color: #fff;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
 
 /*# sourceMappingURL=about.css.map */

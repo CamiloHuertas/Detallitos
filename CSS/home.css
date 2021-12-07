@@ -109,6 +109,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
 .text {

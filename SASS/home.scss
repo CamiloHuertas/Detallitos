@@ -141,6 +141,9 @@ $mainColor: rgb(187, 80, 187);
     -webkit-background-clip: text;
     background-clip: text;
     position: relative;
+
+    display: flex;
+    justify-content: center;
   }
 
   .text {
