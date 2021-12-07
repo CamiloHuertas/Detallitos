@@ -17,4 +17,16 @@
   justify-content: center;
 }
 
+@media screen and (min-width: 768px) {
+  .textFooter {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .textFooter p {
+    font-size: 30px;
+  }
+}
+
 /*# sourceMappingURL=about.css.map */
