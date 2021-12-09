@@ -76,18 +76,13 @@ itemA.forEach(el => {
         linkLists[4].classList.toggle("active")
         linkLists[4].style.marginBottom = "50px"
         break;  
-1
+
       default:
         break;
     }
   })
 })
 
-itemA.forEach(link => {
-  link.addEventListener("click", (e) => {
-    console.log(e.target.includes('xd'));
-  })
-})
 
 
 // Scroll reveal
