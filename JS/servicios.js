@@ -47,11 +47,6 @@ const servicesBtn = d.getElementById("services"),
       linkLists = d.querySelectorAll(".LinkList"),
       itemA = d.querySelectorAll(".itemA")
 
-menu.addEventListener("click", (e) => {
-  if (e.target === d.querySelector("#services") || e.target === d.querySelector("#services p")) {
-    linkServicesMovile.classList.toggle("active")
-  }
-})
 
 itemA.forEach(el => {
   el.addEventListener("click", (e) => {
@@ -83,6 +78,12 @@ itemA.forEach(el => {
   })
 })
 
+// Main zone
+
+const eventSubmenu = d.querySelector(".eventSubmenu"),
+      card = d.querySelector(".card")
+
+
 
 
 // Scroll reveal
@@ -91,4 +92,10 @@ ScrollReveal().reveal('.searchMenu', {
   delay: "500",
   origin: "bottom",
   distance: "-100px"
+})
+
+ScrollReveal().reveal('.main', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
 })
