@@ -1,0 +1,79 @@
+@import url(../../../../CSS/home.css);
+.returnText {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+  background: linear-gradient(to left, #bb50bb, pink, red, orange, blue, purple);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  width: 100%;
+  height: 30px;
+}
+.returnText a {
+  font-family: sans-serif;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+.main {
+  overflow-x: hidden;
+}
+.main .title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.decorations, .ambientation, .floral, .musical {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+  position: relative;
+}
+.decorations .slider, .ambientation .slider, .floral .slider, .musical .slider {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.decorations .slider .slide, .ambientation .slider .slide, .floral .slider .slide, .musical .slider .slide {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+}
+.decorations .slider .slide img, .ambientation .slider .slide img, .floral .slider .slide img, .musical .slider .slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.decorations .controls, .ambientation .controls, .floral .controls, .musical .controls {
+  position: absolute;
+  width: 100%;
+  top: 48%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.decorations .controls .next, .decorations .controls .prev, .ambientation .controls .next, .ambientation .controls .prev, .floral .controls .next, .floral .controls .prev, .musical .controls .next, .musical .controls .prev {
+  color: #fff;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  background: orange;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .slider {
+    width: 30%;
+    max-width: 30%;
+    min-width: 30%;
+  }
+  .slider .slide {
+    margin-right: 20px;
+  }
+}
+
+/*# sourceMappingURL=eventosycelebraciones.css.map */

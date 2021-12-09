@@ -38,55 +38,7 @@ d.addEventListener("click", (e) => {
 })
 
 
-// Services menu
 
-
-
-const servicesBtn = d.getElementById("services"),
-      linkServicesMovile = d.querySelector(".subLinksServicesMovile"),
-      linkLists = d.querySelectorAll(".LinkList"),
-      itemA = d.querySelectorAll(".itemA")
-
-
-itemA.forEach(el => {
-  el.addEventListener("click", (e) => {
-    switch (e.target.textContent) {
-      case "Eventos y celebraciones":
-        linkLists[0].classList.toggle("active")
-        break;
-    
-      case "Regalos sorpresa personalizados y picnic":
-        linkLists[1].classList.toggle("active")
-        break;  
-
-        case "Joyas y accesorios":
-        linkLists[2].classList.toggle("active")
-        break;  
-
-        case "Ropa, calzado y marroquineria":
-        linkLists[3].classList.toggle("active")
-        break;  
-
-        case "Spa y linea de belleza":
-        linkLists[4].classList.toggle("active")
-        linkLists[4].style.marginBottom = "50px"
-        break;  
-
-      default:
-        break;
-    }
-  })
-})
-
-// Main zone
-
-const eventSubmenu = d.querySelector(".eventSubmenu"),
-      card = d.querySelector(".card")
-
-
-
-
-// Scroll reveal
 
 ScrollReveal().reveal('.searchMenu', {
   delay: "500",
