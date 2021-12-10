@@ -128,6 +128,67 @@ prevDesayuno.addEventListener("click", () => {
   sliderDesayuno.style.transition = `all ease 0.3s`
 })
 
+// Almuerzos - cenas -------------------------------------------------------
+
+const contAlmuerzo = d.querySelector(".almuerzo"),
+      sliderAlmuerzo = d.querySelector(".almuerzo .slider"),
+      nextAlmuerzo = d.querySelector(".almuerzo .next"),
+      prevAlmuerzo = d.querySelector(".almuerzo .prev")
+
+let slidesAlmuerzo = d.querySelectorAll(".almuerzo .slide")
+
+const slideAlmuerzoWidth = slidesAlmuerzo[0].clientWidth
+
+let indexAlmuerzo = 1
+
+sliderAlmuerzo.style.transform = `translateX(${-slideRegaloWidth * indexRegalo}px)`
+
+nextAlmuerzo.addEventListener("click", () => {
+  if (indexAlmuerzo >= slidesAlmuerzo.length - 1) return
+  indexAlmuerzo++
+  sliderAlmuerzo.style.transform = `translateX(${-slideAlmuerzoWidth * indexAlmuerzo}px)`
+  sliderAlmuerzo.style.transition = `all ease 0.3s`
+})
+
+prevAlmuerzo.addEventListener("click", () => {
+  if (indexAlmuerzo <= 0) return
+  indexAlmuerzo--
+  sliderAlmuerzo.style.transform = `translateX(${-slideAlmuerzoWidth * indexAlmuerzo}px)`
+  sliderAlmuerzo.style.transition = `all ease 0.3s`
+})
+
+// Picnic ---------------------------------------------------------------
+
+const contPicnic = d.querySelector(".picnic"),
+      sliderPicnic = d.querySelector(".picnic .slider"),
+      nextPicnic = d.querySelector(".picnic .next"),
+      prevPicnic = d.querySelector(".picnic .prev")
+
+let slidesPicnic = d.querySelectorAll(".picnic .slide")
+
+const slidePicnicWidth = slidesPicnic[0].clientWidth
+
+let indexPicnic = 1
+
+sliderPicnic.style.transform = `translateX(${-slidePicnicWidth * indexPicnic}px)`
+
+nextPicnic.addEventListener("click", () => {
+  if (indexPicnic >= slidesPicnic.length - 1) return
+  indexPicnic++
+  sliderPicnic.style.transform = `translateX(${-slidePicnicWidth * indexPicnic}px)`
+  sliderPicnic.style.transition = `all ease 0.3s`
+})
+
+prevPicnic.addEventListener("click", () => {
+  if (indexPicnic <= 0) return
+  indexPicnic--
+  sliderPicnic.style.transform = `translateX(${-slidePicnicWidth * indexPicnic}px)`
+  sliderPicnic.style.transition = `all ease 0.3s`
+})
+
+// Card content
+
+
 
 
 ScrollReveal().reveal('.searchMenu', {

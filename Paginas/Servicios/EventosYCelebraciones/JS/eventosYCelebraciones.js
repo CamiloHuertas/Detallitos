@@ -86,6 +86,7 @@ const slideAmbientationWidth = slidesAmbientations[0].clientWidth
 
 let indexAmbientation = 1
 
+sliderAmbientation.style.transform = `translateX(${-slideAmbientationWidth * indexAmbientation}px)`
 
 nextAmbientation.addEventListener("click", () => {
   if (indexAmbientation >= slidesAmbientations.length - 1) return

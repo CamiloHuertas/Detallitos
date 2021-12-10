@@ -1,3 +1,46 @@
 @import url(../../EventosYCelebraciones/CSS/eventosYCelebraciones.css);
+.contentDA {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  border: 2px solid #bb50bb;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.contentDA .contents {
+  display: flex;
+  flex-direction: column;
+}
+.contentDA .contentFundamental {
+  width: 80%;
+  height: 100%;
+  margin-bottom: 20px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+.contentDA .contentFundamental span {
+  margin-bottom: 10px;
+}
+.contentDA .division {
+  width: 20%;
+  height: 100%;
+  background: #bb50bb;
+  margin-bottom: 20px;
+  border-radius: 0 10px 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentDA .division i {
+  font-size: 25px;
+  color: #fff;
+}
+
+.contentFundamental.inactive {
+  opacity: 0;
+}
 
 /*# sourceMappingURL=regalos.css.map */
