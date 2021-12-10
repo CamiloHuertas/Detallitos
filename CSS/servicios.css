@@ -115,15 +115,16 @@ body {
 }
 .cards .card .cardText {
   width: 100%;
-  height: auto;
+  height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .cards .card .cardText h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-family: sans-serif;
   color: #fff;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -144,6 +145,20 @@ body {
 .eventSubmenu.active {
   display: flex;
   flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .cards .card {
+    transition: all ease 0.5s;
+  }
+  .cards .card:hover {
+    opacity: 0.8;
+  }
 }
 
 /*# sourceMappingURL=servicios.css.map */

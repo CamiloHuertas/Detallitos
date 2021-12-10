@@ -24,28 +24,28 @@
   margin-bottom: 20px;
 }
 
-.decorations, .ambientation, .floral, .musical {
+.decorations, .ambientation, .floral, .musical, .ancheta, .regalo, .desayuno {
   width: 100%;
   height: 300px;
   margin: auto;
   position: relative;
 }
-.decorations .slider, .ambientation .slider, .floral .slider, .musical .slider {
+.decorations .slider, .ambientation .slider, .floral .slider, .musical .slider, .ancheta .slider, .regalo .slider, .desayuno .slider {
   width: 100%;
   height: 100%;
   display: flex;
 }
-.decorations .slider .slide, .ambientation .slider .slide, .floral .slider .slide, .musical .slider .slide {
+.decorations .slider .slide, .ambientation .slider .slide, .floral .slider .slide, .musical .slider .slide, .ancheta .slider .slide, .regalo .slider .slide, .desayuno .slider .slide {
   width: 100%;
   height: 100%;
   min-width: 100%;
 }
-.decorations .slider .slide img, .ambientation .slider .slide img, .floral .slider .slide img, .musical .slider .slide img {
+.decorations .slider .slide img, .ambientation .slider .slide img, .floral .slider .slide img, .musical .slider .slide img, .ancheta .slider .slide img, .regalo .slider .slide img, .desayuno .slider .slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.decorations .controls, .ambientation .controls, .floral .controls, .musical .controls {
+.decorations .controls, .ambientation .controls, .floral .controls, .musical .controls, .ancheta .controls, .regalo .controls, .desayuno .controls {
   position: absolute;
   width: 100%;
   top: 48%;
@@ -53,7 +53,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.decorations .controls .next, .decorations .controls .prev, .ambientation .controls .next, .ambientation .controls .prev, .floral .controls .next, .floral .controls .prev, .musical .controls .next, .musical .controls .prev {
+.decorations .controls .next, .decorations .controls .prev, .ambientation .controls .next, .ambientation .controls .prev, .floral .controls .next, .floral .controls .prev, .musical .controls .next, .musical .controls .prev, .ancheta .controls .next, .ancheta .controls .prev, .regalo .controls .next, .regalo .controls .prev, .desayuno .controls .next, .desayuno .controls .prev {
   color: #fff;
   font-size: 20px;
   width: 40px;
