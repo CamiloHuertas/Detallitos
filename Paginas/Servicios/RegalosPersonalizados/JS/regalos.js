@@ -186,7 +186,19 @@ prevPicnic.addEventListener("click", () => {
   sliderPicnic.style.transition = `all ease 0.3s`
 })
 
+
 // Card content
+
+const card = d.querySelector(".card"),
+      principal = d.querySelector(".principal"),
+      second = d.querySelector(".second"),
+      changeState = d.querySelector(".change")
+
+const cardHeight = d.querySelector(".card").clientHeight
+
+changeState.addEventListener("click", () => {
+  second.style.transform = `translateY(${-cardHeight})`
+})
 
 
 

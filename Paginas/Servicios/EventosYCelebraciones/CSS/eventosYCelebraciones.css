@@ -24,28 +24,28 @@
   margin-bottom: 20px;
 }
 
-.decorations, .ambientation, .floral, .musical, .ancheta, .regalo, .desayuno, .almuerzo, .picnic {
+.decorations, .ambientation, .floral, .musical, .ancheta, .regalo, .desayuno, .almuerzo, .picnic, .jewelery {
   width: 100%;
   height: 300px;
   margin: auto;
   position: relative;
 }
-.decorations .slider, .ambientation .slider, .floral .slider, .musical .slider, .ancheta .slider, .regalo .slider, .desayuno .slider, .almuerzo .slider, .picnic .slider {
+.decorations .slider, .ambientation .slider, .floral .slider, .musical .slider, .ancheta .slider, .regalo .slider, .desayuno .slider, .almuerzo .slider, .picnic .slider, .jewelery .slider {
   width: 100%;
   height: 100%;
   display: flex;
 }
-.decorations .slider .slide, .ambientation .slider .slide, .floral .slider .slide, .musical .slider .slide, .ancheta .slider .slide, .regalo .slider .slide, .desayuno .slider .slide, .almuerzo .slider .slide, .picnic .slider .slide {
+.decorations .slider .slide, .ambientation .slider .slide, .floral .slider .slide, .musical .slider .slide, .ancheta .slider .slide, .regalo .slider .slide, .desayuno .slider .slide, .almuerzo .slider .slide, .picnic .slider .slide, .jewelery .slider .slide {
   width: 100%;
   height: 100%;
   min-width: 100%;
 }
-.decorations .slider .slide img, .ambientation .slider .slide img, .floral .slider .slide img, .musical .slider .slide img, .ancheta .slider .slide img, .regalo .slider .slide img, .desayuno .slider .slide img, .almuerzo .slider .slide img, .picnic .slider .slide img {
+.decorations .slider .slide img, .ambientation .slider .slide img, .floral .slider .slide img, .musical .slider .slide img, .ancheta .slider .slide img, .regalo .slider .slide img, .desayuno .slider .slide img, .almuerzo .slider .slide img, .picnic .slider .slide img, .jewelery .slider .slide img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.decorations .controls, .ambientation .controls, .floral .controls, .musical .controls, .ancheta .controls, .regalo .controls, .desayuno .controls, .almuerzo .controls, .picnic .controls {
+.decorations .controls, .ambientation .controls, .floral .controls, .musical .controls, .ancheta .controls, .regalo .controls, .desayuno .controls, .almuerzo .controls, .picnic .controls, .jewelery .controls {
   position: absolute;
   width: 100%;
   top: 48%;
@@ -53,7 +53,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.decorations .controls .next, .decorations .controls .prev, .ambientation .controls .next, .ambientation .controls .prev, .floral .controls .next, .floral .controls .prev, .musical .controls .next, .musical .controls .prev, .ancheta .controls .next, .ancheta .controls .prev, .regalo .controls .next, .regalo .controls .prev, .desayuno .controls .next, .desayuno .controls .prev, .almuerzo .controls .next, .almuerzo .controls .prev, .picnic .controls .next, .picnic .controls .prev {
+.decorations .controls .next, .decorations .controls .prev, .ambientation .controls .next, .ambientation .controls .prev, .floral .controls .next, .floral .controls .prev, .musical .controls .next, .musical .controls .prev, .ancheta .controls .next, .ancheta .controls .prev, .regalo .controls .next, .regalo .controls .prev, .desayuno .controls .next, .desayuno .controls .prev, .almuerzo .controls .next, .almuerzo .controls .prev, .picnic .controls .next, .picnic .controls .prev, .jewelery .controls .next, .jewelery .controls .prev {
   color: #fff;
   font-size: 20px;
   width: 40px;
