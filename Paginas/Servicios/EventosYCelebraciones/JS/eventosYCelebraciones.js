@@ -176,3 +176,50 @@ ScrollReveal().reveal('.main', {
   origin: "left",
   distance: "500px"
 })
+
+ScrollReveal().reveal('.titleD', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+
+ScrollReveal().reveal('.decorations', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.titleA', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.ambientation', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.ambientation', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.titleF', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.floral', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.titleM', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.musical', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})

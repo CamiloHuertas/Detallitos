@@ -78,6 +78,43 @@
   text-decoration: none;
 }
 
+.floatButtons {
+  position: fixed;
+  z-index: 5;
+  left: 0;
+  top: 50%;
+}
+.floatButtons .whatsapp, .floatButtons .facebook, .floatButtons .instagram {
+  background: #25D366;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  transition: all ease 0.5s;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.floatButtons .whatsapp i, .floatButtons .facebook i, .floatButtons .instagram i {
+  font-size: 25px;
+  color: #fff;
+}
+.floatButtons .whatsapp:hover {
+  background: #2abd60;
+}
+.floatButtons .facebook {
+  background: #3b5998;
+}
+.floatButtons .facebook:hover {
+  background: #385083;
+}
+.floatButtons .instagram {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+}
+.floatButtons .instagram:hover {
+  background: linear-gradient(45deg, #4159d3, #5851cc, #753a9c, #a53474, #cc3366, #e72525);
+}
+
 .main {
   padding-top: 160px;
   width: 100%;

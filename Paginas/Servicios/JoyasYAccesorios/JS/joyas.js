@@ -82,3 +82,13 @@ ScrollReveal().reveal('.main', {
   origin: "left",
   distance: "500px"
 })
+ScrollReveal().reveal('.titleJ', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.jewelery', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})

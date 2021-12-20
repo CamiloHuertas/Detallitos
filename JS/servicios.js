@@ -38,8 +38,6 @@ d.addEventListener("click", (e) => {
 })
 
 
-
-
 ScrollReveal().reveal('.searchMenu', {
   delay: "500",
   origin: "bottom",
@@ -47,6 +45,16 @@ ScrollReveal().reveal('.searchMenu', {
 })
 
 ScrollReveal().reveal('.main', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.titleProducts', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.cards', {
   delay: "500",
   origin: "left",
   distance: "500px"

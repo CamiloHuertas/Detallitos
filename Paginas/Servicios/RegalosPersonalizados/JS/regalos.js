@@ -189,20 +189,6 @@ prevPicnic.addEventListener("click", () => {
 
 // Card content
 
-const card = d.querySelector(".card"),
-      principal = d.querySelector(".principal"),
-      second = d.querySelector(".second"),
-      changeState = d.querySelector(".change")
-
-const cardHeight = d.querySelector(".card").clientHeight
-
-changeState.addEventListener("click", () => {
-  second.style.transform = `translateY(${-cardHeight})`
-})
-
-
-
-
 ScrollReveal().reveal('.searchMenu', {
   delay: "500",
   origin: "bottom",
@@ -210,6 +196,80 @@ ScrollReveal().reveal('.searchMenu', {
 })
 
 ScrollReveal().reveal('.main', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+
+ScrollReveal().reveal('.titleAN', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+
+ScrollReveal().reveal('.ancheta', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.titleR', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+
+ScrollReveal().reveal('.regalo', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.titleD', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+
+ScrollReveal().reveal('.desayuno', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.titleC', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+
+ScrollReveal().reveal('.almuerzo', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.titleP', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+
+ScrollReveal().reveal('.picnic', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+
+
+ScrollReveal().reveal('.titleCO', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+
+ScrollReveal().reveal('.card', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+ScrollReveal().reveal('.cardSecond', {
   delay: "500",
   origin: "left",
   distance: "500px"

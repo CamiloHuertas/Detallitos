@@ -41,32 +41,32 @@ d.addEventListener("click", (e) => {
 
 //  -----------------------------------------------------------------------------
 
-// const contJewel = d.querySelector(".jewelery"),
-//       sliderJewel = d.querySelector(".jewelery .slider"),
-//       nextJewel = d.querySelector(".jewelery .next"),
-//       prevJewel = d.querySelector(".jewelery .prev")
+const contMarr = d.querySelector(".marroquineria"),
+      sliderMarr = d.querySelector(".marroquineria .slider"),
+      nextMarr = d.querySelector(".marroquineria .next"),
+      prevMarr = d.querySelector(".marroquineria .prev")
 
-// let slidesJewelery = d.querySelectorAll(".jewelery .slide")
+let slidesMarr = d.querySelectorAll(".marroquineria .slide")
 
-// const slideJeweleryWidth = slidesJewelery[0].clientWidth
+const slideMarrWidth = slidesMarr[0].clientWidth
 
-// let indexJewelery = 1
+let indexMarr = 1
 
-// sliderJewel.style.transform = `translateX(${-slideJeweleryWidth * indexJewelery}px)`
+sliderMarr.style.transform = `translateX(${-slideMarrWidth * indexMarr}px)`
 
-// nextJewel.addEventListener("click", () => {
-//   if (indexJewelery >= slidesJewelery.length - 1) return
-//   indexJewelery++
-//   sliderJewel.style.transform = `translateX(${-slideJeweleryWidth * indexJewelery}px)`
-//   sliderJewel.style.transition = `all ease 0.3s`
-// })
+nextMarr.addEventListener("click", () => {
+  if (indexMarr >= slidesMarr.length - 1) return
+  indexMarr++
+  sliderMarr.style.transform = `translateX(${-slideMarrWidth * indexMarr}px)`
+  sliderMarr.style.transition = `all ease 0.3s`
+})
 
-// prevJewel.addEventListener("click", () => {
-//   if (indexJewelery <= 0) return
-//   indexJewelery--
-//   sliderJewel.style.transform = `translateX(${-slideJeweleryWidth * indexJewelery}px)`
-//   sliderJewel.style.transition = `all ease 0.3s`
-// })
+prevMarr.addEventListener("click", () => {
+  if (indexMarr <= 0) return
+  indexMarr--
+  sliderMarr.style.transform = `translateX(${-slideMarrWidth * indexMarr}px)`
+  sliderMarr.style.transition = `all ease 0.3s`
+})
 
 
 // Scroll reveal
@@ -78,6 +78,18 @@ ScrollReveal().reveal('.searchMenu', {
 })
 
 ScrollReveal().reveal('.main', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+
+ScrollReveal().reveal('.titleM', {
+  delay: "500",
+  origin: "left",
+  distance: "500px"
+})
+
+ScrollReveal().reveal('.marroquineria', {
   delay: "500",
   origin: "left",
   distance: "500px"
