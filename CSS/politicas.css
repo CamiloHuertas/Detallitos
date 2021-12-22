@@ -1,0 +1,30 @@
+@import url(../CSS/home.css);
+.content .subtitle h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #bb50bb;
+  margin-top: 10px;
+}
+.content .text {
+  font-family: sans-serif;
+  font-size: 15px;
+}
+.content .dueTime, .content .ways, .content .important, .content .note {
+  margin-top: 10px;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+.content .dueTime b, .content .ways b, .content .important b, .content .note b {
+  color: #bb50bb;
+}
+.content .dueTime li, .content .ways li, .content .important li, .content .note li {
+  margin-top: 20px;
+  text-align: justify;
+}
+.content .dueTime h3, .content .ways h3, .content .important h3, .content .note h3 {
+  color: #bb50bb;
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+/*# sourceMappingURL=politicas.css.map */
